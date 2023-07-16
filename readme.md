@@ -14,9 +14,11 @@ for getting all student details : https://student-mentor-assigning-2u08.onrender
       "email":"abi@gmail.com",
       "course":"FSD"
   }
+  
 https://student-mentor-assigning-2u08.onrender.com/create-mentor
 
 2. To create student: (post)
+   
    sample data
    {
       "name":"Nyraa",
@@ -24,27 +26,32 @@ https://student-mentor-assigning-2u08.onrender.com/create-mentor
       "batch":"b43wde",
       "course":"FSD"
   }
+
 https://student-mentor-assigning-2u08.onrender.com/create-student
 
-3.  To assign a student to Mentor
+4.  To assign a student to Mentor
+   
   sample api endpoint
   https://student-mentor-assigning-2u08.onrender.com/assign-student/64b40acc3b54476aad36131e/64b40a813b54476aad361313
 
   https://student-mentor-assigning-2u08.onrender.com/assign-student/:mentorId/:studentId   
 
 4. To Assign or Change Mentor for particular Student
+   
    sample api endpoint
   https://student-mentor-assigning-2u08.onrender.com/change-mentor/64b40a813b54476aad361316/64b40dbe0de9820eb7ff8720
 
   https://student-mentor-assigning-2u08.onrender.com/change-mentor/:studentId/:mentorId
 
 5. To show all students for a particular mentor
+   
    sample api endpoint
    https://student-mentor-assigning-2u08.onrender.com/mentor/64b40acc3b54476aad36131a/studentList
 
    https://student-mentor-assigning-2u08.onrender.com/mentor/:mentorId/studentList
 
-6. To show the previously assigned mentor for a particular student
+7. To show the previously assigned mentor for a particular student
+   
    sample api endpoint
    https://student-mentor-assigning-2u08.onrender.com/previous-mentor/64b40a813b54476aad361312
 
