@@ -7,6 +7,7 @@ for getting all mentor details : https://student-mentor-assigning-2u08.onrender.
 for getting all student details : https://student-mentor-assigning-2u08.onrender.com/students
 
 1.To create the mentor: (post)
+
   sample data
   {
       "name":"Abi",
