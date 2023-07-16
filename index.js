@@ -185,7 +185,7 @@ app.get("/previous-mentor/:studentId", async (req, res) => {
     let length = mentorList.length;
     let mentorsStudent = {
       Name: `${student.name}`,
-      MentorList: `${student.mentor[length - 1]}`,
+      PreviousMentor: `${student.mentor[0]}`,
     };
 
     if (mentorList.length == 0)
