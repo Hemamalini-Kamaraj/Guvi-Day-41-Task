@@ -182,7 +182,6 @@ app.get("/previous-mentor/:studentId", async (req, res) => {
     const { studentId } = req.params;
     const student = await StudentModel.findById(studentId);
     let mentorList = student.mentor;
-    let length = mentorList.length;
     let mentorsStudent = {
       Name: `${student.name}`,
       PreviousMentor: `${student.mentor[0]}`,
@@ -199,4 +198,4 @@ app.get("/previous-mentor/:studentId", async (req, res) => {
 app.listen(3000, () => {
   console.log("server is running on port 3000");
 });
-git
+git;
